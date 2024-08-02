@@ -7,6 +7,8 @@ This is a simple tool that monitors and displays CPU usage by user on a Linux
 server. It's implemented in Rust for efficiency and reliability. This was
 co-written with Claude AI.
 
+**Note**: Due to [sandboxing](https://docs.rs/sysinfo/latest/sysinfo/struct.Process.html) this will not work on OS X systems (please submit a PR if you can get around this!). It does work on Linux servers well though.
+
 Key features:
 
 1. Real-time monitoring: Continuously updates CPU usage information with `-l/--live`.
