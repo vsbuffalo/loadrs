@@ -1,4 +1,5 @@
 # loadrs — server user load monitoring tool in Rust
+[![Crates.io](https://img.shields.io/crates/v/loadrs.svg)](https://crates.io/crates/loadrs)
 
 ![loadrs in action](https://raw.githubusercontent.com/vsbuffalo/loadrs/main/screenshot.png)
 
