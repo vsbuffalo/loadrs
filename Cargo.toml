@@ -1,0 +1,23 @@
+[package]
+name = "loadrs"
+version = "0.1.0"
+edition = "2021"
+description = "A command line tool to display users' CPU usage and warn about excessive usage."
+authors = ["Vince Buffalo <vsbuffalo@gmail.com>"]
+keywords = ["system", "monitoring", "cli", "cpu"]
+homepage = "https://github.com/vsbuffalo/loadrs"
+repository = "https://github.com/vsbuffalo/loadrs"
+license = "MIT"
+
+
+[dependencies]
+clap = { version = "4.5.13", features = ["derive"] }
+colored = "2.1.0"
+ctrlc = "3.4.4"
+prettytable-rs = "0.10.0"
+sysinfo = "0.31.2"
+
+[[bin]]
+name = "load"
+path = "src/main.rs"
+
